@@ -1,4 +1,4 @@
-# DatePickerDialog 1.1 - iOS - Swift
+# DatePickerDialog 2.1 - iOS - Swift
 
 DatePickerDialog is an iOS drop-in classe that displays an UIDatePicker within an UIAlertView.
 
@@ -6,13 +6,13 @@ DatePickerDialog is an iOS drop-in classe that displays an UIDatePicker within a
 
 ## Requirements
 
-DatePickerDialog works on iOS 7, 8 and 9. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
+DatePickerDialog works on iOS 7, 8, 9 and 10. It depends on the following Apple frameworks, which should already be included with most Xcode templates:
 
 * Foundation
 * UIKit
 
 #### Swift Versions
-- Swift 3 (master)
+- Swift 4.2 (master)
 - Swift 2.3 (```swift_2.3``` branch)
 
 ## Installation
@@ -20,9 +20,9 @@ DatePickerDialog works on iOS 7, 8 and 9. It depends on the following Apple fram
 You can use [CocoaPods](http://cocoapods.org/) to install `DatePickerDialog` by adding it to your `Podfile`:
 
 ```ruby
-platform :ios, '8.0'
+platform :ios, '9.0'
 use_frameworks!
-pod 'DatePickerDialog'
+pod 'DatePickerDialog', :git => 'https://github.com/bruand81/DatePickerDialog-iOS-Swift.git'
 ```
 
 To get the full benefits import `DatePickerDialog` wherever you import UIKit
@@ -35,7 +35,7 @@ import DatePickerDialog
 Create a `Cartfile` that lists the framework and run `carthage bootstrap`. Follow the [instructions](https://github.com/Carthage/Carthage#if-youre-building-for-ios) to add `$(SRCROOT)/Carthage/Build/iOS/DatePickerDialogFramework.framework` to an iOS project.
 
 ```
-github "squimer/DatePickerDialog-iOS-Swift"
+github "bruand81/DatePickerDialog-iOS-Swift"
 ```
 
 #### Manually
